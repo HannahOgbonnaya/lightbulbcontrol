@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+</head>
+<body>
+
+    <h1>Light Bulb Control</h1>
+    <img id="bulb" src="Image/off.jpeg" alt="bulb"><br>
+    <button onclick="turnonF()" >turn on</button>
+    <button onclick="turnoffF()">turn off</button>
+
+
+
+
+
+
+
+
+
+    <script>
+
+        function turnonF(){
+            document.getElementById("bulb").src="image/on.jpeg"
+        
+        }
+
+        function turnoffF(){
+            document.getElementById("bulb").src="image/off.jpeg"
+
+        }
+
+    </script>
+    
+</body>
+</html>
